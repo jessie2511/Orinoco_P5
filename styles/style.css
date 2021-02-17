@@ -1,0 +1,184 @@
+/* *********************************STYLES POUR TOUTES LES PAGES************************************* */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: whitesmoke;
+  width: auto;
+  height: 80px;
+}
+
+#logo {
+  float: left;
+  margin: 5px;
+}
+
+#navigation {
+  float: right;
+  margin: 5px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 2px;
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: royalblue;
+}
+
+ul li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.active {
+  color: brown;
+}
+
+main {
+  background-color: rgba(231, 226, 226, 0.904);
+}
+
+footer {
+  background-color: #c2bcbc;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.footerLinks {
+  display: inline-block;
+}
+
+.footerLinks li a {
+  margin: 0 5px;
+  padding: 5px;
+}
+
+.footerLinks li a:hover {
+  color: royalblue;
+}
+
+/* ***********************************************PAGE INDEX******************************************* */
+main h1 {
+  background: -webkit-gradient(linear, left top, right top, from(#CE4B0C), to(#A029DC));
+  background: linear-gradient(to right, #CE4B0C 0%, #A029DC 100%);
+  -webkit-text-fill-color: transparent;
+  font-size: 2.8em;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.boutique {
+  background-color: whitesmoke;
+  -webkit-box-shadow: 8px 7px 6px 2px rgba(176, 176, 176, 0.72);
+          box-shadow: 8px 7px 6px 2px rgba(176, 176, 176, 0.72);
+  border-radius: 5px;
+  width: 400px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.boutique:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.boutique img {
+  width: 100%;
+  height: 300px;
+}
+
+.boutique h2, p {
+  font-family: 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', 'Georgia', serif;
+}
+
+.boutique p {
+  background-color: #ccc8c8;
+  margin: auto 0px;
+  padding: 30px 10px;
+  text-transform: capitalize;
+  padding-bottom: 35px;
+}
+
+.boutique h2 {
+  padding-top: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#CE4B0C), to(#A029DC));
+  background: linear-gradient(to right, #CE4B0C 0%, #A029DC 100%);
+  -webkit-text-fill-color: transparent;
+}
+
+.boutique a {
+  font-size: 20px;
+  color: #482b97;
+  border: #482b97;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+
+.boutique a:hover {
+  color: #960f8f;
+  border: 1px solid;
+}
+
+/* ************************************************************MEDIA QUERIES**************************************************** */
+/* *********Smartphones*********** */
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* Styles here */
+}
+
+/* *****Tablet***** */
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+  /* Styles here */
+}
+
+/* *****Laptop***** */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles here */
+}
+
+/* *****Desktop***** */
+@media screen and (min-width: 1280px) {
+  /* Styles here */
+}
+/*# sourceMappingURL=style.css.map */
